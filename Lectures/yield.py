@@ -8,7 +8,7 @@ def interval_generator(x, y):
 
 five_to_ten_generator = interval_generator(5, 10) # 1st call
 
-print(type(five_to_ten_generator))
+print(type(five_to_ten_generator)) # class 'generator'
 
 for i in five_to_ten_generator:
     print(i)
